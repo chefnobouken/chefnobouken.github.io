@@ -1,0 +1,46 @@
+type: presets
+version: 0.1.0
+
+presets:
+  default:
+    fontName: Arial
+    fontSize: 16
+    fontOutline:
+      enable: false
+      lineWidth: 4
+      lineColor: rgba(16, 16, 16, 1)
+    fontShadow:
+      enable: false
+      shadowOffset:
+        x: 2
+        y: 2
+      shadowColor: rgba(32, 32, 32, 0.6)
+      shadowBlur: 4
+    textColor: rgba(255, 255, 255, 1)
+
+    lineHeight: 36
+    textPadding: 24
+    windowPadding: 18
+    contentsOffset:
+      x: 0
+      y: 0
+    spacing: 12
+
+    gaugeOffset:
+      x: 0
+      y: 4
+    gaugeHeight: 16
+    gaugeOutline:
+      enable: true
+      lineWidth: 2
+      lineColor: rgba(16, 16, 16, 1)
+    gaugeSlanted: false
+
+    windowSkin: Window
+    cursor:
+      type: normal # normal / image / none
+      blink: false
+      image: battle_hud/CommandCursor
+      offset:
+        x: 0
+        y: 0
